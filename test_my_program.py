@@ -1,7 +1,6 @@
 import unittest
 from my_program import calculate_sum
 
-
 class TestCalculateSum(unittest.TestCase):
     def test_sum_positive_numbers(self):
         result = calculate_sum([1, 2, 3, 4, 5])
